@@ -25,7 +25,7 @@ const Ready = () => {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed = "-.15" className='w-full h-[120vh]  bg-[#CDEA68] flex flex-col rounded-3xl justify-center items-center'>
-        <div className='text-[18rem] font-["Test_Founders_Grotesk_X_Condensed"] font-semibold leading-[13rem] text-zinc-900 flex flex-col justify-center items-center '>
+        <div className='text-[18rem] font-founders-grotesk font-semibold leading-[13rem] text-zinc-900 flex flex-col justify-center items-center '>
             <h1>READY</h1>
             <h1>TO START</h1>
             <h1>THE PROJECT !!</h1>
@@ -46,7 +46,7 @@ const Ready = () => {
                         </div>
                     </div>
         </div>
-        <div className="btn h-[10vh] flex flex-col font-['Neue_Montreal'] mt-36 justify-center items-center">
+        <div className="btn h-[10vh] flex flex-col font-neue-montreal mt-36 justify-center items-center">
             <button className="uppercase text-lg flex items-center gap-6 text-white bg-zinc-800 px-10 py-5 rounded-full">view all case studies 
                 <div className="w-3 h-3 bg-white rounded-full"></div>
             </button>

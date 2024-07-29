@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div data-scroll data-scroll-section data-scroll-speed = ".01" className='w-full min-h-screen rounded-t-3xl text-white bg-zinc-900'>
-        <div className="sections w-full relative flex px-16 py-16 font-['Test_Founders_Grotesk_X_Condensed']  ">
+        <div className="sections w-full relative flex px-16 py-16 font-founders-grotesk">
             <div className="section-left w-1/2 ">
                 <h1 className='text-[11.5rem] leading-none font-semibold '>EYE- </h1>
                 <h1 className='text-[11.5rem] leading-[6rem] font-semibold '>OPENING</h1>
@@ -19,19 +19,19 @@ const Footer = () => {
             </div>
             <div className="section-right w-1/2 ">
                 <h1 className='text-[11.5rem] leading-none font-semibold '>PRESENTATIONS</h1>
-                <div className='font-["Neue_Montreal"] text-2xl mt-32 flex-col flex'>
+                <div className='font-neue-montreal text-2xl mt-32 flex-col flex'>
                     <h1 className='text-xl mb-8'>L:</h1>
                     <buttton>Instagram</buttton>
                     <buttton>Behance</buttton>
                     <buttton>Facebook</buttton>
                     <buttton>LinkedIn</buttton>
                 </div>
-                <div className='font-["Neue_Montreal"] text-xl mt-20 flex-col flex'>
+                <div className='font-neue-montreal text-xl mt-20 flex-col flex'>
                     <h1 className='text-xl mb-8'>A:</h1>
                     <h1>IVY LEAGUE HOUSE</h1>
                     <h1>TATHAWADE, PUNE</h1>
                 </div>
-                <div className='font-["Neue_Montreal"] text-xl mt-20 flex-col flex'>
+                <div className='font-neue-montreal text-xl mt-20 flex-col flex'>
                     <h1 className='text-xl mb-8'>E:</h1>
                     <h1 className='uppercase'>katolepiyush16@gmail.com</h1>
                     

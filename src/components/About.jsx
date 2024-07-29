@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div  data-scroll data-scroll-section data-scroll-speed = "-.015" className='w-full bg-[#CDEA68] rounded-t-3xl text-zinc-900 font-["Neue_Montreal"] tracking-tight'>
+    <div  data-scroll data-scroll-section data-scroll-speed = "-.015" className='w-full bg-[#CDEA68] rounded-t-3xl text-zinc-900 font-neue-montreal tracking-tight'>
       <div className='py-20'></div>
         <p className='px-20 text-[7.2vh] leading-[4.5rem]'>Ochi is a strategic partner for fast-grow­ing tech <br /> businesses that need to <span className='border-b-[3px] border-zinc-900'>raise funds</span>, <span className='border-b-[3px] border-zinc-900'>sell prod­ucts</span>, <br /> <span className='border-b-[3px] border-zinc-900'>ex­plain com­plex ideas</span>, and <span className='border-b-[3px] border-zinc-900'>hire great peo­ple</span>.</p>
         <div className='border-t-[1px] mt-20 border-[#95a55b]'>
@@ -26,8 +26,8 @@ const About = () => {
               </button>
             </div>
             <div className="right w-1/2 pb-14">
-              <div className='w-full h-[60vh] rounded-2xl bg-[#748441] overflow-hidden'>
-                <img src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
+              <div data-scroll data-scroll-section data-scroll-speed = ".07" className='w-full h-[60vh] rounded-2xl bg-[#748441] overflow-hidden'>
+                <img   src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
               </div>
             </div>
           </div>

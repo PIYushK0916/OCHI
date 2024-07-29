@@ -6,7 +6,7 @@ const LandingPage = () => {
 
   return (
 
-    <div data-scroll data-scroll-section data-scroll-speed = "-.3" className="w-full min-h-screen text-white bg-zinc-900 pt-1 font-['Neue_Montreal']">
+    <div data-scroll data-scroll-section data-scroll-speed = "-.3" className="w-full min-h-screen text-white bg-zinc-900 pt-1 font-neue-montreal">
       <div className="textstructure mt-44 px-20">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
@@ -15,7 +15,7 @@ const LandingPage = () => {
                 {index === 1 && (
                   <motion.div initial={{width:0}} animate = {{width: '9vw'}} transition={{ease:[0.76, 0, 0.24, 1], duration:"1"}} className="mr-5 w-[8vw] rounded-md h-[5.7vw] -top-[0.2vw] relative bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')]"></motion.div>
                 )}
-                <div className="font-['Test_Founders_Grotesk_X_Condensed'] font-semibold leading-[7vw] text-[8.5vw] uppercase">
+                <div className="font-founders-grotesk font-semibold leading-[7vw] text-[8.5vw] uppercase">
                   <h1>{item}</h1>
                 </div>
               </div>

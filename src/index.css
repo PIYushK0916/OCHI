@@ -1,3 +1,31 @@
+
+@font-face {
+    font-family: 'Test_Founders_Grotesk_X_Condensed';
+    src: url('./assets/fonts/FoundersGrotesk-Semibold.woff2') format('woff2'),
+    url('/src/assets/fonts/FoundersGrotesk-Semibold.woff') format('woff'),
+    url('/src/assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neue_Montreal';
+    src: url('/src/assets/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/NeueMontreal-Regular.woff') format('woff'),
+    url('/src/assets/fonts/NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Neue_Montreal', sans-serif;
+}
+
+/* Example usage of the second font */
+.header {
+    font-family: 'Test_Founders_Grotesk_X_Condensed', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

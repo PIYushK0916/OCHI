@@ -10,6 +10,10 @@ export default {
       backdropBlur: {
         'md': '10px',
       },
+      fontFamily: {
+        'neue-montreal': ['Neue_Montreal', 'sans-serif'],
+        'founders-grotesk': ['Test_Founders_Grotesk_X_Condensed', 'sans-serif'],
+      },
     },
   },
   plugins: [

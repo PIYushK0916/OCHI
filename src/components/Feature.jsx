@@ -8,9 +8,9 @@ const Feature = () => {
   const [d1, d2] = useState(false);
 
   return (
-    <div className='w-full bg-zinc-100 font-["Neue_Montreal"]'>
+    <div className='w-full bg-zinc-100 font-neue-montreal'>
       <div className="cont relative ">
-        <h1 className='text-7xl px-16 pt-36 text-black font-["Neue_Montreal"]'>
+        <h1 className='text-7xl px-16 pt-36 text-black font-neue-montreal'>
           Featured projects
         </h1>
         <div className="border-t-[1px] border-zinc-400 mt-12">

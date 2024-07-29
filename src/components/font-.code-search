@@ -1,0 +1,122 @@
+# Query: font-
+# ContextLines: 1
+
+39 results - 8 files
+
+src\index.css:
+   1  
+   2: @font-face {
+   3:     font-family: 'Test_Founders_Grotesk_X_Condensed';
+   4      src: url('./assets/fonts/FoundersGrotesk-Semibold.woff2') format('woff2'),
+
+   6      url('/src/assets/fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+   7:     font-weight: normal;
+   8:     font-style: normal;
+   9  }
+  10  
+  11: @font-face {
+  12:     font-family: 'Neue_Montreal';
+  13      src: url('/src/assets/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+
+  15      url('/src/assets/fonts/NeueMontreal-Regular.ttf') format('truetype');
+  16:     font-weight: normal;
+  17:     font-style: normal;
+  18  }
+
+  20  body {
+  21:     font-family: 'Neue_Montreal', sans-serif;
+  22  }
+
+  25  .header {
+  26:     font-family: 'Test_Founders_Grotesk_X_Condensed', sans-serif;
+  27  }
+
+src\components\About.jsx:
+  4    return (
+  5:     <div  data-scroll data-scroll-section data-scroll-speed = "-.015" className='w-full bg-[#CDEA68] rounded-t-3xl text-zinc-900 font-["Neue_Montreal"] tracking-tight'>
+  6        <div className='py-20'></div>
+
+src\components\Feature.jsx:
+   10    return (
+   11:     <div className='w-full bg-zinc-100 font-neue-montreal'>
+   12        <div className="cont relative ">
+   13:         <h1 className='text-7xl px-16 pt-36 text-black font-neue-montreal'>
+   14            Featured projects
+
+   19                <motion.div
+   20:                 className="label absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl font-semibold tracking-tight text-[#CDEA68]"
+   21                  initial={{ opacity: 0 }}
+
+   50                <motion.div
+   51:                 className="label absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl font-semibold tracking-tight text-[#CDEA68]"
+   52                  initial={{ opacity: 0 }}
+
+   77                <motion.div
+   78:                 className="label absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl font-semibold tracking-tight text-[#CDEA68]"
+   79                  initial={{ opacity: 0 }}
+
+  105                <motion.div
+  106:                 className="label absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-9xl font-semibold tracking-tighter flex text-[#CDEA68]"
+  107                  initial={{ opacity: 0 }}
+
+src\components\Footer.jsx:
+   5      <div data-scroll data-scroll-section data-scroll-speed = ".01" className='w-full min-h-screen rounded-t-3xl text-white bg-zinc-900'>
+   6:         <div className="sections w-full relative flex px-16 py-16 font-['Test_Founders_Grotesk_X_Condensed']  ">
+   7              <div className="section-left w-1/2 ">
+   8:                 <h1 className='text-[11.5rem] leading-none font-semibold '>EYE- </h1>
+   9:                 <h1 className='text-[11.5rem] leading-[6rem] font-semibold '>OPENING</h1>
+  10                  <div className="logo text-whitw left-16 bottom-16 absolute">
+
+  20              <div className="section-right w-1/2 ">
+  21:                 <h1 className='text-[11.5rem] leading-none font-semibold '>PRESENTATIONS</h1>
+  22:                 <div className='font-neue-montreal text-2xl mt-32 flex-col flex'>
+  23                      <h1 className='text-xl mb-8'>L:</h1>
+
+  28                  </div>
+  29:                 <div className='font-["Neue_Montreal"] text-xl mt-20 flex-col flex'>
+  30                      <h1 className='text-xl mb-8'>A:</h1>
+
+  33                  </div>
+  34:                 <div className='font-["Neue_Montreal"] text-xl mt-20 flex-col flex'>
+  35                      <h1 className='text-xl mb-8'>E:</h1>
+
+src\components\LandingPage.jsx:
+   8  
+   9:     <div data-scroll data-scroll-section data-scroll-speed = "-.3" className="w-full min-h-screen text-white bg-zinc-900 pt-1 font-neue-montreal">
+  10        <div className="textstructure mt-44 px-20">
+
+  17                  )}
+  18:                 <div className="font-founders-grotesk font-semibold leading-[7vw] text-[8.5vw] uppercase">
+  19                    <h1>{item}</h1>
+
+  31            return (
+  32:             <p className="text-xl leading-none py-5 px-20 tracking-normal font-light" key={index}>
+  33                {items}
+
+  37          <div className="start flex justify-center gap-3 items-center px-16">
+  38:           <button className="text-lg uppercase font-extralight rounded-full px-7 py-2 border-[1px] border-zinc-400">
+  39              Start The Project
+
+src\components\Marque.jsx:
+   8          <div className="text flex border-t-2 border-b-2 border-zinc-300 whitespace-nowrap overflow-hidden ">
+   9:             <motion.h1  initial={{x:"0"}} animate={{x:"-100%"}} transition={{  repeat: Infinity,ease:"linear", duration:5}} className='text-[26vw] leading-none font-["Test_Founders_Grotesk_X_Condensed"] font-semibold -mt-20 -mb-7 uppercase pr-20'>We Are Ochi </motion.h1>
+  10:             <motion.h1  initial={{x:"0"}} animate={{x:"-100%"}} transition={{  repeat: Infinity,ease:"linear", duration:5}} className='text-[26vw] leading-none font-["Test_Founders_Grotesk_X_Condensed"] font-semibold -mt-20 -mb-7 uppercase pr-20'>We Are Ochi </motion.h1>
+  11          </div>
+
+src\components\Nabar.jsx:
+  27    return (
+  28:     <div className={`fixed top-0 left-0 w-full px-20 py-8 font-neue-montreal flex justify-between z-[999] transition-transform duration-300 ease-in-out backdrop-blur-md ${scrollDirection === 'down' ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`}>
+  29        <div className="logo">
+
+  39          {['Services', 'Our Work', 'About us', 'Insights', 'contact us'].map((items, index) => (
+  40:           <a href="" key={index} className={`text-xl font-neue-montreal capitalize font-regular ${index === 4 && "ml-32"} `}>{items}</a>
+  41          ))}
+
+src\components\Ready.jsx:
+  27      <div data-scroll data-scroll-section data-scroll-speed = "-.15" className='w-full h-[120vh]  bg-[#CDEA68] flex flex-col rounded-3xl justify-center items-center'>
+  28:         <div className='text-[18rem] font-["Test_Founders_Grotesk_X_Condensed"] font-semibold leading-[13rem] text-zinc-900 flex flex-col justify-center items-center '>
+  29              <h1>READY</h1>
+
+  48          </div>
+  49:         <div className="btn h-[10vh] flex flex-col font-neue-montreal mt-36 justify-center items-center">
+  50              <button className="uppercase text-lg flex items-center gap-6 text-white bg-zinc-800 px-10 py-5 rounded-full">view all case studies 
