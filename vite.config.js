@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Ochi-react/'  // Base URL for GitHub Pages
+  base: '/'  // Base URL for GitHub Pages
 });
