@@ -6,7 +6,7 @@ const LandingPage = () => {
 
   return (
 
-    <div data-scroll data-scroll-section data-scroll-speed = "-.3" className="w-full min-h-screen text-white bg-zinc-900 pt-1 font-neue-montreal">
+    <div data-scroll data-scroll-section data-scroll-speed = "-.3" className="w-full sm:w-full min-h-screen text-white bg-zinc-900 pt-1 font-neue-montreal">
       <div className="textstructure mt-44 px-20">
         {["We Create", "Eye-Opening", "Presentations"].map((item, index) => {
           return (
@@ -23,7 +23,7 @@ const LandingPage = () => {
           );
         })}
       </div>
-      <div className="border-t-2 border-zinc-800 mt-36 py-4 flex justify-between items-center">
+      <div className="border-t-2 sm:w-full border-zinc-800 mt-36 py-4 flex justify-between items-center">
         {[
           "For public and private companies",
           "From the first pitch to IPO",

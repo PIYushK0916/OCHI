@@ -39,7 +39,7 @@ const Eyes = () => {
                     </div>
                     <div className="w-circle w-[30vh] h-[30vh] rounded-full relative bg-white">
                         <div className="b-circle w-[18vh] h-[18vh] bg-black top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] absolute flex justify-center items-center rounded-full">
-                            <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }}  className='w-full h-10 -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2 absolute'>
+                            <div style={{ transform: `translate(-50%, -50%) rotate(${rotate}deg)` }} className='w-full h-10 -translate-x-[50%] -translate-y-[50%] top-1/2 left-1/2 absolute'>
                                 <div className="w-10 h-10 bg-white rounded-full"></div>
                             </div>
                             <button className='text-white text-2xl absolute text-center tracking-wider'>PLAY</button>
